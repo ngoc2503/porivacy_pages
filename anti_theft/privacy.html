@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chính sách quyền riêng tư của ứng dụng Anti-Theft. Privacy Policy for the Anti-Theft app.">
+  <meta name="theme-color" content="#24282d">
+  <title>Chính sách quyền riêng tư | Anti-Theft</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f5f7;
+      --surface: #ffffff;
+      --text: #20242a;
+      --muted: #626b76;
+      --accent: #f5a623;
+      --accent-dark: #8a5700;
+      --border: #e2e5e9;
+      --soft: #fff7e8;
+      --shadow: 0 10px 30px rgba(20, 25, 32, .06);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .hero {
+      background: #24282d;
+      color: #fff;
+      padding: 48px 20px 38px;
+      border-bottom: 4px solid var(--accent);
+    }
+    .hero-inner, main, footer { max-width: 920px; margin: 0 auto; }
+    .brand {
+      display: flex; align-items: center; gap: 12px;
+      font-weight: 750; letter-spacing: .04em; text-transform: uppercase;
+    }
+    .shield {
+      width: 42px; height: 42px; display: grid; place-items: center;
+      color: var(--accent); border: 2px solid var(--accent);
+      border-radius: 12px; font-size: 23px;
+    }
+    h1 { margin: 24px 0 6px; font-size: clamp(28px, 5vw, 40px); line-height: 1.2; }
+    .hero p { margin: 8px 0 0; color: #d5d9de; }
+    .lang-wrap { margin-top: 22px; display: flex; gap: 8px; }
+    .lang-btn {
+      border: 1px solid #626a73; background: transparent; color: #fff;
+      padding: 9px 16px; border-radius: 999px; cursor: pointer;
+      font: inherit; font-weight: 650;
+    }
+    .lang-btn[aria-pressed="true"] {
+      background: var(--accent); border-color: var(--accent); color: #24282d;
+    }
+    main { padding: 28px 18px 56px; }
+    .updated {
+      color: var(--muted); font-size: 14px; margin: 0 0 18px;
+    }
+    .notice {
+      background: var(--soft); border: 1px solid #f2d69e;
+      border-left: 4px solid var(--accent); border-radius: 12px;
+      padding: 14px 16px; margin: 0 0 24px;
+    }
+    .notice strong { color: var(--accent-dark); }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px; margin: 16px 0;
+      box-shadow: var(--shadow);
+    }
+    h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.35; }
+    h3 { margin: 18px 0 6px; font-size: 17px; }
+    p { margin: 9px 0; }
+    ul { padding-left: 23px; margin: 8px 0; }
+    li { margin: 5px 0; }
+    a { color: #8a5700; overflow-wrap: anywhere; }
+    .muted { color: var(--muted); }
+    .tag {
+      display: inline-block; background: #fff1d6; color: #754900;
+      padding: 2px 9px; border-radius: 999px; font-size: 13px; font-weight: 700;
+    }
+    footer { padding: 0 18px 36px; color: var(--muted); font-size: 14px; }
+    [hidden] { display: none !important; }
+    @media (max-width: 600px) {
+      .hero { padding: 34px 18px 30px; }
+      .card { padding: 19px; border-radius: 13px; }
+      main { padding: 20px 12px 42px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand"><span class="shield" aria-hidden="true">⬡</span><span>Anti-Theft</span></div>
+      <h1 id="page-title">Chính sách quyền riêng tư</h1>
+      <p id="page-subtitle">Minh bạch về quyền truy cập và cách ứng dụng hoạt động trên thiết bị của bạn.</p>
+      <div class="lang-wrap" role="group" aria-label="Language">
+        <button class="lang-btn" id="vi-btn" type="button" aria-pressed="true">Tiếng Việt</button>
+        <button class="lang-btn" id="en-btn" type="button" aria-pressed="false">English</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <p class="updated" id="updated-vi">Ngày có hiệu lực: 15 tháng 11, 2026 · Cập nhật lần cuối: 15 tháng 11, 2026</p>
+    <p class="updated" id="updated-en" hidden>Effective date: November 15, 2026 · Last updated: November 15, 2026</p>
+
+    <div id="content-vi" lang="vi">
+      <section class="card">
+        <h2>1. Giới thiệu</h2>
+        <p>Chính sách quyền riêng tư này giải thích cách ứng dụng <strong>Anti-Theft</strong> (“Ứng dụng”) sử dụng quyền trên thiết bị và xử lý thông tin khi bạn cài đặt hoặc sử dụng ứng dụng.</p>
+        <p>Ứng dụng cung cấp các tính năng hỗ trợ bảo vệ điện thoại, chẳng hạn như phát hiện rút sạc, chuyển động hoặc thay đổi vị trí thiết bị, phát âm thanh báo động và yêu cầu mã PIN để tắt báo động.</p>
+        <p>Bằng việc sử dụng Ứng dụng, bạn xác nhận đã đọc chính sách này. Nếu không đồng ý, vui lòng ngừng sử dụng và gỡ cài đặt Ứng dụng.</p>
+      </section>
+
+      <section class="card">
+        <h2>2. Thông tin và dữ liệu được xử lý</h2>
+        <h3>2.1. Dữ liệu cảm biến</h3>
+        <p>Tùy chế độ bảo vệ bạn bật và phần cứng thiết bị hỗ trợ, Ứng dụng có thể đọc dữ liệu tức thời từ cảm biến gia tốc, tiệm cận, ánh sáng hoặc trạng thái kết nối sạc để xác định sự kiện có thể cần phát cảnh báo.</p>
+        <p>Dữ liệu cảm biến được sử dụng để vận hành tính năng bảo vệ trên thiết bị. Ứng dụng không cần truy cập danh bạ, tin nhắn SMS, nhật ký cuộc gọi hoặc ảnh cá nhân để cung cấp các chức năng chống trộm nêu trên.</p>
+        <h3>2.2. Cài đặt và mã PIN</h3>
+        <p>Các tùy chọn bảo vệ, cấu hình báo động và mã PIN có thể được lưu trên thiết bị để duy trì cài đặt giữa các lần sử dụng. Không chia sẻ mã PIN với người khác. Hãy bảo vệ thiết bị và khóa màn hình của bạn.</p>
+        <h3>2.3. Âm thanh báo động do người dùng chọn</h3>
+        <p>Nếu bạn chọn một tệp âm thanh, Android có thể cấp cho Ứng dụng quyền đọc URI của tệp đó để phát âm thanh. Ứng dụng chỉ sử dụng tệp được chọn cho chức năng âm thanh báo động. Bạn có thể xóa lựa chọn để quay lại âm thanh mặc định. Quyền truy cập có thể không còn hiệu lực nếu tệp bị xóa, di chuyển hoặc nhà cung cấp tệp thu hồi quyền.</p>
+        <h3>2.4. Thông tin hỗ trợ</h3>
+        <p>Nếu bạn chủ động gửi email hoặc liên hệ với chúng tôi, chúng tôi sẽ xử lý nội dung và địa chỉ liên hệ bạn cung cấp để trả lời yêu cầu. Vui lòng không gửi thông tin nhạy cảm không cần thiết.</p>
+      </section>
+
+      <section class="card">
+        <h2>3. Mục đích sử dụng dữ liệu</h2>
+        <ul>
+          <li>Phát hiện các sự kiện liên quan đến chế độ bảo vệ mà bạn đã bật.</li>
+          <li>Khởi chạy và duy trì dịch vụ nền cần thiết để giám sát khi tính năng được kích hoạt.</li>
+          <li>Phát âm thanh cảnh báo và hiển thị màn hình báo động.</li>
+          <li>Lưu các tùy chọn, trạng thái và cấu hình do bạn thiết lập.</li>
+          <li>Phản hồi khi bạn chủ động liên hệ bộ phận hỗ trợ.</li>
+        </ul>
+        <p>Ứng dụng không sử dụng dữ liệu cảm biến để theo dõi vị trí địa lý hoặc xây dựng hồ sơ hành vi cá nhân.</p>
+      </section>
+
+      <section class="card">
+        <h2>4. Quyền Android và lý do sử dụng</h2>
+        <ul>
+          <li><strong>Foreground Service / thông báo:</strong> duy trì hoạt động bảo vệ trong nền và hiển thị thông báo dịch vụ khi cần thiết.</li>
+          <li><strong>Hiển thị trên ứng dụng khác (SYSTEM_ALERT_WINDOW):</strong> hiển thị giao diện cảnh báo ở phía trên ứng dụng khác khi có sự kiện báo động, nếu bạn cấp quyền.</li>
+          <li><strong>Thông báo (POST_NOTIFICATIONS):</strong> hiển thị thông báo liên quan đến trạng thái bảo vệ trên các phiên bản Android yêu cầu quyền này.</li>
+          <li><strong>Báo thức chính xác (nếu được sử dụng):</strong> hỗ trợ các tác vụ định thời mà chức năng bảo vệ cần. Quyền này không được sử dụng để gửi thông tin cá nhân.</li>
+          <li><strong>Truy cập cảm biến:</strong> đọc tín hiệu cảm biến cần thiết cho chế độ bảo vệ bạn kích hoạt.</li>
+          <li><strong>Truy cập tệp âm thanh:</strong> đọc tệp âm thanh mà bạn chủ động chọn.</li>
+        </ul>
+        <p>Bạn có thể quản lý hoặc thu hồi quyền trong phần Cài đặt Android. Việc thu hồi một số quyền có thể khiến tính năng tương ứng không hoạt động đầy đủ.</p>
+      </section>
+
+      <section class="card">
+        <h2>5. Chia sẻ dữ liệu và dịch vụ bên thứ ba</h2>
+        <p>Ứng dụng không bán dữ liệu cá nhân của bạn. Các tính năng bảo vệ cốt lõi được thiết kế để hoạt động trên thiết bị và không yêu cầu gửi dữ liệu cảm biến hoặc mã PIN đến máy chủ của nhà phát triển.</p>
+        <p>Nếu phiên bản bạn cài đặt có tích hợp dịch vụ bên thứ ba (ví dụ: thanh toán trong ứng dụng qua Google Play, quảng cáo, phân tích hoặc báo cáo lỗi), các dịch vụ đó có thể xử lý một số dữ liệu theo chính sách riêng của nhà cung cấp. Việc xử lý thực tế phụ thuộc vào SDK và cấu hình được tích hợp trong phiên bản phát hành.</p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Chính sách quyền riêng tư của Google</a></li>
+          <li><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener noreferrer">Điều khoản dịch vụ Google Play</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>6. Lưu trữ và bảo mật</h2>
+        <p>Các cài đặt và dữ liệu cần thiết cho hoạt động của Ứng dụng có thể được lưu cục bộ trên thiết bị. Thời gian lưu phụ thuộc vào việc bạn tiếp tục sử dụng Ứng dụng, giữ dữ liệu ứng dụng hay gỡ cài đặt.</p>
+        <p>Chúng tôi áp dụng thiết kế và biện pháp hợp lý trong phạm vi kiểm soát của mình để hạn chế truy cập trái phép. Tuy nhiên, không có phương thức lưu trữ hoặc truyền dữ liệu điện tử nào bảo đảm an toàn tuyệt đối.</p>
+      </section>
+
+      <section class="card">
+        <h2>7. Quyền lựa chọn và kiểm soát của bạn</h2>
+        <ul>
+          <li>Bật hoặc tắt từng chế độ bảo vệ trong Ứng dụng.</li>
+          <li>Thay đổi hoặc xóa âm thanh báo động tùy chỉnh.</li>
+          <li>Quản lý quyền cảm biến, thông báo, hiển thị trên ứng dụng khác và các quyền liên quan trong Cài đặt Android.</li>
+          <li>Xóa dữ liệu Ứng dụng hoặc gỡ cài đặt để xóa dữ liệu được lưu cục bộ, tùy cơ chế sao lưu của thiết bị và Android.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>8. Quyền riêng tư của trẻ em</h2>
+        <p>Ứng dụng là tiện ích bảo vệ thiết bị, không được thiết kế để thu thập thông tin cá nhân của trẻ em. Chúng tôi không chủ động yêu cầu trẻ cung cấp tên, địa chỉ, thông tin liên hệ hoặc dữ liệu cá nhân khác.</p>
+      </section>
+
+      <section class="card">
+        <h2>9. Thay đổi chính sách</h2>
+        <p>Chúng tôi có thể cập nhật chính sách này khi chức năng, yêu cầu pháp lý hoặc cách xử lý dữ liệu thay đổi. Phiên bản mới sẽ được đăng tại trang này cùng ngày cập nhật. Bạn nên kiểm tra định kỳ.</p>
+      </section>
+
+      <section class="card">
+        <h2>10. Liên hệ</h2>
+        <p>Nếu có câu hỏi hoặc yêu cầu liên quan đến quyền riêng tư, vui lòng liên hệ:</p>
+        <p><strong>Nhà phát triển:</strong> Tiny Game Lab<br>
+        <strong>Email:</strong> <a href="mailto:nguyenvanngoc7857@gmail.com">nguyenvanngoc7857@gmail.com</a></p>
+      </section>
+    </div>
+
+    <div id="content-en" lang="en" hidden>
+      <section class="card">
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy explains how <strong>Anti-Theft</strong> (the “App”) uses device permissions and handles information when you install or use the App.</p>
+        <p>The App provides phone-protection features, such as detecting charger disconnection, movement or changes in device position, playing an alarm, and requiring a PIN to stop the alarm.</p>
+        <p>By using the App, you acknowledge that you have read this Policy. If you do not agree, please stop using and uninstall the App.</p>
+      </section>
+
+      <section class="card">
+        <h2>2. Information and Data Processed</h2>
+        <h3>2.1. Sensor data</h3>
+        <p>Depending on the protection mode you enable and the hardware available on your device, the App may read real-time data from the accelerometer, proximity sensor, light sensor, or charging connection state to identify events that may require an alert.</p>
+        <p>Sensor data is used to operate protection features on your device. The App does not need access to your contacts, SMS messages, call logs, or personal photos to provide the anti-theft features described above.</p>
+        <h3>2.2. Settings and PIN</h3>
+        <p>Protection preferences, alarm configuration, and your PIN may be stored on your device to preserve your settings between sessions. Do not share your PIN with others. Keep your device and screen lock secure.</p>
+        <h3>2.3. User-selected alarm audio</h3>
+        <p>If you select an audio file, Android may grant the App permission to read that file's URI so it can play the audio. The App uses the selected file for the alarm sound feature. You can clear your selection to return to the default sound. Access may stop working if the file is deleted, moved, or access is revoked by the file provider.</p>
+        <h3>2.4. Support communications</h3>
+        <p>If you voluntarily email or contact us, we process the message and contact details you provide to respond to your request. Please do not send unnecessary sensitive information.</p>
+      </section>
+
+      <section class="card">
+        <h2>3. How Data Is Used</h2>
+        <ul>
+          <li>Detect events relevant to the protection modes you have enabled.</li>
+          <li>Start and maintain the background service needed to monitor your device while a feature is active.</li>
+          <li>Play an alert sound and display the alarm interface.</li>
+          <li>Save preferences, states, and configurations you set.</li>
+          <li>Respond when you voluntarily contact support.</li>
+        </ul>
+        <p>The App does not use sensor data to track your geographic location or build personal behavioral profiles.</p>
+      </section>
+
+      <section class="card">
+        <h2>4. Android Permissions and Why They Are Used</h2>
+        <ul>
+          <li><strong>Foreground service / notifications:</strong> keep protection active in the background and show the required service notification.</li>
+          <li><strong>Display over other apps (SYSTEM_ALERT_WINDOW):</strong> show an alarm interface over other apps when an alarm event occurs, if you grant this permission.</li>
+          <li><strong>Notifications (POST_NOTIFICATIONS):</strong> show protection-status notifications on Android versions that require this permission.</li>
+          <li><strong>Exact alarms (if used):</strong> support scheduled tasks required by a protection feature. This permission is not used to send personal information.</li>
+          <li><strong>Sensor access:</strong> read sensor signals needed for the protection mode you enable.</li>
+          <li><strong>Audio file access:</strong> read the audio file that you explicitly select.</li>
+        </ul>
+        <p>You can manage or revoke permissions in Android Settings. Revoking certain permissions may prevent the related feature from working properly.</p>
+      </section>
+
+      <section class="card">
+        <h2>5. Data Sharing and Third-Party Services</h2>
+        <p>The App does not sell your personal data. Core protection features are designed to operate on your device and do not require sensor data or your PIN to be sent to the developer's servers.</p>
+        <p>If the version you install integrates third-party services (for example, Google Play in-app billing, advertising, analytics, or crash reporting), those services may process certain data under their providers' own privacy policies. Actual processing depends on the SDKs and configuration included in the released version.</p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+          <li><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play Terms of Service</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>6. Data Storage and Security</h2>
+        <p>Settings and data needed for the App to function may be stored locally on your device. Retention depends on whether you continue using the App, retain its app data, or uninstall it.</p>
+        <p>We use reasonable design choices and safeguards within our control to help prevent unauthorized access. However, no electronic storage or transmission method can be guaranteed to be completely secure.</p>
+      </section>
+
+      <section class="card">
+        <h2>7. Your Choices and Controls</h2>
+        <ul>
+          <li>Enable or disable individual protection modes in the App.</li>
+          <li>Change or clear your custom alarm sound.</li>
+          <li>Manage sensor, notification, display-over-other-apps, and related permissions in Android Settings.</li>
+          <li>Clear the App's data or uninstall it to remove locally stored data, subject to your device's and Android's backup behavior.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>8. Children's Privacy</h2>
+        <p>The App is a device-protection utility and is not designed to collect children's personal information. We do not knowingly ask children to provide names, addresses, contact details, or other personal information.</p>
+      </section>
+
+      <section class="card">
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Policy when the App's features, legal requirements, or data practices change. The updated version will be published on this page with a revised date. We encourage you to review it periodically.</p>
+      </section>
+
+      <section class="card">
+        <h2>10. Contact Us</h2>
+        <p>If you have questions or requests about privacy, please contact:</p>
+        <p><strong>Developer:</strong> Tiny Game Lab<br>
+        <strong>Email:</strong> <a href="mailto:nguyenvanngoc7857@gmail.com">nguyenvanngoc7857@gmail.com</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <span id="footer-vi">© 2026 Tiny Game Lab. Bảo lưu mọi quyền.</span>
+    <span id="footer-en" hidden>© 2026 Tiny Game Lab. All rights reserved.</span>
+  </footer>
+
+  <script>
+    (function () {
+      const viButton = document.getElementById('vi-btn');
+      const enButton = document.getElementById('en-btn');
+
+      function setLanguage(language) {
+        const isVietnamese = language === 'vi';
+        document.documentElement.lang = language;
+        document.getElementById('page-title').textContent =
+          isVietnamese ? 'Chính sách quyền riêng tư' : 'Privacy Policy';
+        document.getElementById('page-subtitle').textContent =
+          isVietnamese
+            ? 'Minh bạch về quyền truy cập và cách ứng dụng hoạt động trên thiết bị của bạn.'
+            : 'Learn how the App uses permissions and operates on your device.';
+        document.getElementById('updated-vi').hidden = !isVietnamese;
+        document.getElementById('updated-en').hidden = isVietnamese;
+        document.getElementById('notice-vi').hidden = !isVietnamese;
+        document.getElementById('notice-en').hidden = isVietnamese;
+        document.getElementById('content-vi').hidden = !isVietnamese;
+        document.getElementById('content-en').hidden = isVietnamese;
+        document.getElementById('footer-vi').hidden = !isVietnamese;
+        document.getElementById('footer-en').hidden = isVietnamese;
+        viButton.setAttribute('aria-pressed', String(isVietnamese));
+        enButton.setAttribute('aria-pressed', String(!isVietnamese));
+        document.title = isVietnamese
+          ? 'Chính sách quyền riêng tư | Anti-Theft'
+          : 'Privacy Policy | Anti-Theft';
+      }
+
+      viButton.addEventListener('click', function () { setLanguage('vi'); });
+      enButton.addEventListener('click', function () { setLanguage('en'); });
+      setLanguage('vi');
+    })();
+  </script>
+</body>
+</html>
